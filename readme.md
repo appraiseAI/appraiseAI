@@ -1,5 +1,4 @@
-
-### 📝 License
+Appraise Framework Website, template from
 
 Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
 
