@@ -13,7 +13,7 @@ weight = 2
 
 [[main]]
 name = "Donate"
-url = "elements/"
+url = "donate/"
 weight = 3
 
 [[main]]
