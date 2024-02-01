@@ -1,5 +1,5 @@
 ---
-title: "NEWPAGE"
+title: "Donate"
 # meta title
 meta_title: ""
 # meta description
