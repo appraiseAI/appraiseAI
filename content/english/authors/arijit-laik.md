@@ -23,7 +23,7 @@ social:
   - name: wordpress
     icon: fa-brands fa-wordpress
     link: https://neon1174.wordpress.com
-
+draft: true
 ---
 
 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.

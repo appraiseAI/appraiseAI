@@ -7,10 +7,12 @@ draft: false
 ---
 
 
-APPRAISE is an innovative AI governance framework designed to address the complex challenges organizations face in implementing effective AI governance. Developed by Diptish Dey, an expert in responsible AI at the Faculty of Business & Economics, Amsterdam University of Applied Sciences, APPRAISE focuses on the auditability and explainability of AI systems.
+APPRAISE is an innovative AI governance framework designed to address the complex challenges organizations face in implementing effective AI governance. 
 
+{{< button label="Read our arxiv paper" link="https://arxiv.org/abs/2309.14876" style="solid" >}}
+{{< button label="More about us" link="/authors" style="" >}}
 
-{{< tabs >}}
+<!-- {{< tabs >}}
 {{< tab "Tab 1" >}}
 
 #### Did you come here for something in particular?
@@ -38,4 +40,4 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
 
 {{< /tab >}}
-{{< /tabs >}}
+{{< /tabs >}} -->
