@@ -9,9 +9,18 @@ draft: false
 
 APPRAISE is an innovative AI governance framework designed to address the complex challenges organizations face in implementing effective AI governance. 
 
-{{< button label="Read our arxiv paper" link="https://arxiv.org/abs/2309.14876" style="solid" >}}
+{{< button label="Read our arxiv paper on APPRAISE " link="https://arxiv.org/abs/2309.14876" style="solid" >}} 
 {{< button label="More about us" link="/authors" style="" >}}
 
+##### A Framework for Auditing Multilevel Models using Explainability Methods
+
+{{< button label="Read More in ECIAIR 2022 proceedings" link="https://books.google.nl/books?id=4AqiEAAAQBAJ&lpg=PA12&ots=Rd9AM7DUZB&dq=bhaumik%20dey%20auditing%20binary%20classifiers&lr&pg=PA12#v=onepage&q=bhaumik%20dey%20auditing%20binary%20classifiers&f=false" style="" >}}
+[arXiv link](https://arxiv.org/abs/2207.01611)
+ 
+
+##### Framework for Technical Assessment of Binary Classifiers
+{{< button label="Read More in the arXiv paper" link="https://arxiv.org/abs/2211.09500" style="" >}}
+[Proceedings of the 15th  ICAART](https://www.scitepress.org/Link.aspx?doi=10.5220/0011744600003393)
 <!-- {{< tabs >}}
 {{< tab "Tab 1" >}}
 

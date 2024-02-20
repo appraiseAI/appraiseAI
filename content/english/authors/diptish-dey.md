@@ -5,13 +5,13 @@ image: "/images/dd.png"
 description: this is meta description
 weight: 1
 social:
-  - name: github
-    icon: fa-brands fa-github
-    link: https://github.com
+  - name: researchgate
+    icon: fa-brands fa-researchgate
+    link: https://www.researchgate.net/profile/Diptish-Dey
 
-  - name: twitter
-    icon: fa-brands fa-twitter
-    link: https://twitter.com
+  # - name: twitter
+  #   icon: fa-brands fa-twitter
+  #   link: https://twitter.com
 
   - name: linkedin
     icon: fa-brands fa-linkedin
