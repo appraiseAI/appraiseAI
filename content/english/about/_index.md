@@ -12,7 +12,7 @@ APPRAISE is an innovative AI governance framework designed to address the comple
 {{< button label="Read our arxiv paper on APPRAISE " link="https://arxiv.org/abs/2309.14876" style="solid" >}} 
 
 
-{{< button label="More about us" link="/authors" style="" >}}
+<!-- {{< button label="More about us" link="/authors" style="" >}} -->
 
 ##### A Framework for Auditing Multilevel Models using Explainability Methods
 
