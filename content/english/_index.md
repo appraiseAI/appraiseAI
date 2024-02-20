@@ -28,7 +28,7 @@ features:
     image: "/images/bc.png"
     content: "This paper introduces an audit framework for assessing the technical aspects of logistic regression and random forest models used for binary classification, in line with the European Commission's proposed Artificial Intelligence Act (AIA). The framework covers model, discrimination, transparency, and explainability aspects, utilizing 20 key performance indicators (KPIs) paired with a traffic light risk assessment method. By training models on an open-source dataset and evaluating with various explainability methods, the framework aims to aid regulatory bodies in conformity assessments and assist AI-system providers and users in complying with the AIA."
     bulletpoints:
-    - "Examine the rise of multilevel models for binary classification"
+    - "Utilize traffic light risk assessment method for evaluation"
     - "Highlight the importance of fairness and transparency under the AIA"
     - "Introduce an audit framework for RFMs and MLogRMs"
     button:
@@ -42,7 +42,8 @@ features:
     bulletpoints:
     - "Introduce an audit framework for technical assessment of regression MLMs"
     - "Identify contributors and propose KPIs for model evaluation"
-    - "Utilize traffic light risk assessment method for evaluation"
+    - "The most commonly used explainability methods such as SHAP and LIME occasionally provide incorrect feature contribution magnitudes"
+   
     button:
       enable: true
       label: "Read More "
