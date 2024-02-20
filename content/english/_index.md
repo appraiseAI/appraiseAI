@@ -37,7 +37,7 @@ features:
       link: "https://arxiv.org/abs/2211.09500"
 
   - title: "A Framework for Auditing Multilevel Models using Explainability Methods"
-    image: "/images/service-3.png"
+    image: "/images/bdu.png"
     content: "Multilevel models are commonly used for binary classification within hierarchical structures, demanding transparent and ethical applications. This paper proposes an audit framework for assessing technical aspects of regression MLMs, focusing on model, discrimination, and transparency/explainability. Contributors like inter-MLM group fairness and feature contribution order are identified, with KPIs proposed for their evaluation using a traffic light risk assessment method. Different explainability methods (SHAP and LIME) are employed and compared for transparency assessment. Utilizing an open-source dataset, model performance is evaluated, highlighting challenges in popular explainability methods. The framework aims to aid regulatory conformity assessments and support businesses in aligning with AI regulations."
     bulletpoints:
     - "Introduce an audit framework for technical assessment of regression MLMs"
