@@ -48,7 +48,7 @@ $image.RelPermalink }}
     <div class="flex flex-wrap">
       {{ $news := where .Site.RegularPages "Section" "news" | last 3 }}
       {{ range $news }}
-      <div class="w-full md:w-6/12 lg:w-4/12 px-4 mb-14">
+      <div class="w-full md:w-6/12 lg:w-4/12 px-2 mb-14">
         <div class=" rounded-lg shadow-lg ">
           <div class="p-6">
             {{ if .Params.image }}
