@@ -11,6 +11,12 @@ name = "News"
 url = "news/"
 weight = 2
 
+
+[[main]]
+weight = 2
+name = "Our Work"
+url = "ourwork/"
+
 # [[main]]
 # name = "Donate"
 # url = "donate/"

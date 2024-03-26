@@ -35,33 +35,33 @@ $image.RelPermalink }}
 <!-- /Banner -->
 
 <!-- News Section -->
-<section class="section pt-14">
-  <div class="container">
+<section class="section-sm pt-14 bg-gradient">
+  <div class="container mx-auto px-4">
     <!-- Section Header -->
-    <div class="row justify-center">
-      <div class="col-lg-8 text-center mb-10">
-        <h2 class="section-title">News and Updates</h2>
-        <p class="section-subtitle">Read about AI news and our updates</p>
+    <div class="flex flex-wrap justify-center text-center mb-10">
+      <div class="w-full lg:w-8/12 px-4">
+        <h2 class="text-4xl font-semibold text-primary">News and Updates</h2>
+        <p class="text-lg leading-relaxed m-4 text-secondary">Read about AI news and our updates</p>
       </div>
     </div>
     <!-- /Section Header -->
-    <div class="row justify ">
+    <div class="flex flex-wrap">
       {{ $news := where .Site.RegularPages "Section" "news" | last 3 }}
       {{ range $news }}
-      <div class="md:col-6 lg:col-4 mb-14 ">
-        <div class="card rounded         ">
-          <div class="card-body ">
+      <div class="w-full md:w-6/12 lg:w-4/12 px-4 mb-14">
+        <div class=" rounded-lg shadow-lg ">
+          <div class="p-6">
             {{ if .Params.image }}
             {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "mx-auto mb-6" "Size" "500x") }}
             {{ end }}
             {{ with .Title }}
-            <h5 class="card-title">{{ . | markdownify }}</h5>
+            <h5 class="text-2xl font-semibold text-primary">{{ . | markdownify }}</h5>
             {{ end }}
             {{ with .Description }}
-            <p class="card-text" style="line-height: 1.6;">{{ . | markdownify }}</p>
+            <p class="mt-4 text-lg leading-relaxed text-secondary">{{ . | markdownify }}</p>
             {{ end }}
             {{ with .Permalink }}
-            <a href="{{ . }}" class="btn btn-outline-primary mt-6" style="transition: all 0.3s ease;">
+            <a href="{{ . }}" class="mt-6 inline-block btn btn-outline-primary rounded">
               Read More <i class="fa fa-arrow-right pl-2"></i>
             </a>
             {{ end }}
@@ -70,8 +70,8 @@ $image.RelPermalink }}
       </div>
       {{ end }}
     </div>
-    <div class="row justify-center">
-      <div class="col-lg-8 text-center mt-10">
+    <div class="flex flex-wrap justify-center mt-10">
+      <div class="w-full lg:w-8/12 px-4 text-center">
         <a href="/news" class="btn btn-primary">View All News</a>
       </div>
     </div>
@@ -122,6 +122,52 @@ $image.RelPermalink }}
 </section>
 {{ end }}
 <!-- /Features -->
+
+
+<section class="section-sm pt-14 bg-gradient ">
+  <div class="container mx-auto px-4">
+    <!-- Section Header -->
+    <div class="flex flex-wrap justify-center text-center mb-10">
+      <div class="w-full lg:w-8/12 px-4">
+        <h2 class="text-4xl font-semibold text-primary">Our Work</h2>
+        <p class="text-lg leading-relaxed m-4 text-secondary">Check out our latest research summaries</p>
+      </div>
+    </div>
+    <!-- /Section Header -->
+    <div class="flex flex-wrap">
+      {{ $work := where .Site.RegularPages "Section" "ourwork" | first 6 }}
+      {{ range $work }}
+      <div class="w-full md:w-6/12 lg:w-4/12 px-4 mb-14">
+        <div class="rounded-lg shadow-lg">
+          <div class="p-6">
+            {{ if .Params.image }}
+            {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "mx-auto mb-6" "Size" "500x") }}
+            {{ end }}
+            {{ with .Title }}
+            <h5 class="text-2xl font-semibold">{{ . | markdownify }}</h5>
+            {{ end }}
+            {{ with .Description }}
+            <p class="mt-4 text-lg leading-relaxed">{{ . | markdownify }}</p>
+            {{ end }}
+            {{ with .Permalink }}
+            <a href="{{ . }}" class="mt-6 inline-block py-2 px-4 btn btn-outline-primary">
+              Read More <i class="fa fa-arrow-right pl-2"></i>
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="flex flex-wrap justify-center mt-10">
+      <div class="w-full lg:w-8/12 px-4 text-center">
+        <a href="/ourwork" class="btn btn-primary ">View All Work</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Our Work Section -->
+
 
 <!-- Testimonials -->
 {{ with site.GetPage "sections/testimonial" }}
