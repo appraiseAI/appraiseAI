@@ -1,14 +1,14 @@
 {{ define "main" }}
 <!-- Banner -->
 {{ with .Params.banner }}
-{{ $image := resources.Get "images/banner.png" }}
-{{ $style := printf "background-image: url('%s'); background-size: cover; background-position: center;"
-$image.RelPermalink }}
+{{/* {{ $image := resources.Get "images/banner.png" }} */}}
+{{/* {{ $style := printf "background-image: url('%s'); background-size: cover; background-position: center;" */}}
+{{/* $image.RelPermalink }} */}}
 <section class="section pt-14 " {{ partial `bg-image.html` (dict `Src` "images/banner.png" ) | safeHTMLAttr }}>
-  <div class="container">
-    <div class="row justify-center">
-      <div class="lg:col-7 md:col-9 mb-8 text-center">
-        <h1 class="mb-4 text-h3 lg:text-h1 text-white ">
+  <div class="container ">
+    <div class="row justify-center ">
+      <div class="lg:col-7 md:col-9 mb-8 text-center ">
+        <h1 class="mb-4 text-h3 lg:text-h1 text-white">
           {{ .title | markdownify }}
         </h1>
         <h4 class="mb-8 font-bold animate-pulse text-white ">
@@ -48,26 +48,7 @@ $image.RelPermalink }}
     <div class="flex flex-wrap">
       {{ $news := where .Site.RegularPages "Section" "news" | last 3 }}
       {{ range $news }}
-      <div class="w-full md:w-6/12 lg:w-4/12 px-2 mb-14">
-        <div class=" rounded-lg shadow-lg ">
-          <div class="p-6">
-            {{ if .Params.image }}
-            {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "mx-auto mb-6" "Size" "500x") }}
-            {{ end }}
-            {{ with .Title }}
-            <h5 class="text-2xl font-semibold text-primary">{{ . | markdownify }}</h5>
-            {{ end }}
-            {{ with .Description }}
-            <p class="mt-4 text-lg leading-relaxed text-secondary">{{ . | markdownify }}</p>
-            {{ end }}
-            {{ with .Permalink }}
-            <a href="{{ . }}" class="mt-6 inline-block btn btn-outline-primary rounded">
-              Read More <i class="fa fa-arrow-right pl-2"></i>
-            </a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
+      {{ partial "components/home-card" . }}
       {{ end }}
     </div>
     <div class="flex flex-wrap justify-center mt-10">
@@ -139,26 +120,7 @@ $image.RelPermalink }}
     <div class="flex flex-wrap">
       {{ $work := where .Site.RegularPages "Section" "ourwork" | first 6 }}
       {{ range $work }}
-      <div class="w-full md:w-6/12 lg:w-4/12 px-4 mb-14">
-        <div class="rounded-lg shadow-lg">
-          <div class="p-6">
-            {{ if .Params.image }}
-            {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "mx-auto mb-6" "Size" "500x") }}
-            {{ end }}
-            {{ with .Title }}
-            <h5 class="text-2xl font-semibold">{{ . | markdownify }}</h5>
-            {{ end }}
-            {{ with .Description }}
-            <p class="mt-4 text-lg leading-relaxed">{{ . | markdownify }}</p>
-            {{ end }}
-            {{ with .Permalink }}
-            <a href="{{ . }}" class="mt-6 inline-block py-2 px-4 btn btn-outline-primary">
-              Read More <i class="fa fa-arrow-right pl-2"></i>
-            </a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
+      {{ partial "components/home-card" . }}
       {{ end }}
     </div>
     <div class="flex flex-wrap justify-center mt-10">
