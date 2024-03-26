@@ -11,6 +11,10 @@
         <h1 class="mb-4 text-h3 lg:text-h1 text-white">
           {{ .title | markdownify }}
         </h1>
+        {{/*  <div class="my-5" >
+          {{ partial "image" (dict "Src" "images/logo.png" "Alt" "feature image" "DisplayXL" "800x"  "Class" "mx-auto lg:!max-w-[320px]")}}
+        </div>  */}}
+      
         <h4 class="mb-8 font-bold animate-pulse text-white ">
           {{ .content | markdownify }}
         </h4>
