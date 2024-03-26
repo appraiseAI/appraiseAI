@@ -7,48 +7,30 @@ draft: false
 ---
 
 
-APPRAISE is an innovative AI governance framework designed to address the complex challenges organizations face in implementing effective AI governance. 
+### About Us
 
-{{< button label="Read our arxiv paper on APPRAISE " link="https://arxiv.org/abs/2309.14876" style="solid" >}} 
+Welcome to our platform, where we focus on providing innovative solutions for navigating the complexities of AI governance.
 
+### APPRAISE Framework
 
-<!-- {{< button label="More about us" link="/authors" style="" >}} -->
+APPRAISE is an innovative AI governance framework designed to address the complex challenges organizations face in implementing effective AI governance.
 
-##### A Framework for Auditing Multilevel Models using Explainability Methods
+{{< button label="Read our arXiv paper on APPRAISE" link="https://arxiv.org/abs/2309.14876" style="solid" >}}
+
+### A Framework for Auditing Multilevel Models using Explainability Methods
+
+Explore our research on auditing multilevel models and understand the importance of transparency and explainability.
 
 {{< button label="Read More in ECIAIR 2022 proceedings" link="https://books.google.nl/books?id=4AqiEAAAQBAJ&lpg=PA12&ots=Rd9AM7DUZB&dq=bhaumik%20dey%20auditing%20binary%20classifiers&lr&pg=PA12#v=onepage&q=bhaumik%20dey%20auditing%20binary%20classifiers&f=false" style="" >}}
 [arXiv link](https://arxiv.org/abs/2207.01611)
- 
 
-##### Framework for Technical Assessment of Binary Classifiers
+### Framework for Technical Assessment of Binary Classifiers
+
+Delve into our research on technical assessment frameworks for binary classifiers.
+
 {{< button label="Read More in the arXiv paper" link="https://arxiv.org/abs/2211.09500" style="" >}}
-[Proceedings of the 15th  ICAART](https://www.scitepress.org/Link.aspx?doi=10.5220/0011744600003393)
-<!-- {{< tabs >}}
-{{< tab "Tab 1" >}}
+[Proceedings of the 15th ICAART](https://www.scitepress.org/Link.aspx?doi=10.5220/0011744600003393)
 
-#### Did you come here for something in particular?
 
-Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf.
 
-{{< /tab >}}
 
-{{< tab "Tab 2" >}}
-
-#### I wanna talk about the assassination attempt
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-{{< /tab >}}
-
-{{< tab "Tab 3" >}}
-
-#### We know you’re dealing in stolen ore
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-
-{{< /tab >}}
-{{< /tabs >}} -->
