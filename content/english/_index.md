@@ -1,7 +1,7 @@
 ---
 banner:
   title: " AI Governance with APPRAISE"
-  content: "The website is currently undergoing construction. If you're keen to learn more about our work, you can explore our research paper on arXiv using the provided link."
+  content: "Artificial Intelligence Regulation, Ethical AI, Innovation, Compliance, AI Systems"
   image: banner.png
   button:
     enable: true

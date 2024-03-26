@@ -11,9 +11,9 @@ $image.RelPermalink }}
         <h1 class="mb-4 text-h3 lg:text-h1 text-white ">
           {{ .title | markdownify }}
         </h1>
-        <p class="mb-8 text-white">
+        <h4 class="mb-8 font-bold shadow-lg animate-pulse  text-amber-500 ">
           {{ .content | markdownify }}
-        </p>
+        </h4>
         {{ with .button }}
         {{ if .enable }}
         <a class="btn btn-primary" href="{{ .link | absURL }}" {{ if strings.HasPrefix .link `http` }} target="_blank"

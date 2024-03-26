@@ -3,7 +3,7 @@ title: "Navigating AI Governance: Insights from Research"
 meta_title: ""
 description: "This research explores AI governance, compliance challenges, and proposed solutions for organizations. Gain insights into the impact of regulations, learnings from GDPR, and the importance of audit in AI governance."
 date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/imageblog.png"
 categories: ["AI", "Governance", "Compliance"]
 author: "Diptish Dey"
 tags: ["AI Regulation", "GDPR", "AI Governance", "Audit", "Compliance Challenges"]
