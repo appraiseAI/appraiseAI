@@ -49,7 +49,7 @@
       </div>
     </div>
     <!-- /Section Header -->
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap ">
       {{ $news := where .Site.RegularPages "Section" "news" | last 3 }}
       {{ range $news }}
       {{ partial "components/home-card" . }}
@@ -121,7 +121,7 @@
       </div>
     </div>
     <!-- /Section Header -->
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap ">
       {{ $work := where .Site.RegularPages "Section" "ourwork" | first 6 }}
       {{ range $work }}
       {{ partial "components/home-card" . }}
