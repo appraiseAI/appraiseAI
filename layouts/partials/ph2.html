@@ -1,0 +1,11 @@
+<section>
+  <div class="px-0 container  text-center" 
+  {{/*  {{ partial `bg-image.html` (dict `Src` "images/banner.png" ) | safeHTMLAttr }}  */}}
+  >
+    <div
+      class=" backdrop-blur-md  py-5 ">
+      <h1 class="font-bold ">{{ .Title | title }}</h1>
+      {{/*  {{ partial "components/breadcrumb" (dict "Context" . "Class" "mt-6") }}  */}}
+    </div>
+  </div>
+</section>

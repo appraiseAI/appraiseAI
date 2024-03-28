@@ -4,18 +4,19 @@
 {{/* {{ $image := resources.Get "images/banner.png" }} */}}
 {{/* {{ $style := printf "background-image: url('%s'); background-size: cover; background-position: center;" */}}
 {{/* $image.RelPermalink }} */}}
-<section class="section pt-14 " {{ partial `bg-image.html` (dict `Src` "images/banner.png" ) | safeHTMLAttr }}>
-  <div class="container ">
+<div  {{ partial `bg-image.html` (dict `Src` "images/banner.png" ) | safeHTMLAttr }}>
+<section class="section pt-14 backdrop-blur-sm ">
+  <div class="container" >
     <div class="row justify-center ">
-      <div class="lg:col-7 md:col-9 mb-8 text-center ">
-        <h1 class="mb-4 text-h3 lg:text-h1 text-white">
+      <div class="lg:col-7 md:col-9 mb-8 text-center font-black drop-shadow-md">
+        <h1 class="mb-4 text-h3 lg:text-h1 ">
           {{ .title | markdownify }}
         </h1>
         {{/*  <div class="my-5" >
           {{ partial "image" (dict "Src" "images/logo.png" "Alt" "feature image" "DisplayXL" "800x"  "Class" "mx-auto lg:!max-w-[320px]")}}
         </div>  */}}
       
-        <h4 class="mb-8 font-bold animate-pulse text-white ">
+        <h4 class="mb-8 animate-pulse font-black drop-shadow-md capitalize">
           {{ .content | markdownify }}
         </h4>
         {{ with .button }}
@@ -35,6 +36,7 @@
     </div>
   </div>
 </section>
+</div>
 {{ end }}
 <!-- /Banner -->
 
@@ -49,7 +51,7 @@
       </div>
     </div>
     <!-- /Section Header -->
-    <div class="flex">
+    <div class="flex flex-wrap">
       {{ $news := where .Site.RegularPages "Section" "news" | last 3 }}
       {{ range $news }}
       <div class="w-full md:w-6/12 lg:w-4/12 px-0 sm:px-3 mb-14 xl:mb-8 flex">
@@ -123,7 +125,7 @@
       </div>
     </div>
     <!-- /Section Header -->
-    <div class="flex">
+    <div class="flex flex-wrap">
       {{ $news := where .Site.RegularPages "Section" "ourwork" | last 3 }}
       {{ range $news }}
       <div class="w-full md:w-6/12 lg:w-4/12 px-0 sm:px-3 mb-14 xl:mb-8 flex">
