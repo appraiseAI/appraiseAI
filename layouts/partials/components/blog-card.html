@@ -1,14 +1,15 @@
-<div class="w-full bg-body dark:bg-darkmode-theme-light">
+<div class="w-full mb-10">
     {{ $permalink := .RelPermalink }}
-    <div class="flex flex-col sspace-y-1 sm:space-y-2 md:space-y-3 lg:space-y-4 xl:space-y-5 2xl:space-y-6 h-full rounded-lg shadow-md dark:shadow-sm dark:shadow-opacity-80 justify-between p-2 sm:p-3 md:p-4 lg:p-5 xl:p-6 transition-all duration-500 ease-in-out hover:shadow-lg dark:hover:shadow-md">
-        <div class="">
-            {{ if .Params.image }}
-            <a href="{{ $permalink }}" class="no-underline transform transition-all duration-500 ease-in-out hover:scale-105 block">
-                {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "mx-auto mb-6 !h-64 rounded object-cover object-top" "Size" "500x") }}
+    <div class=" bg-body dark:bg-darkmode-theme-light flex flex-col space-y-1 pb-4 h-full rounded-lg shadow-md dark:shadow-sm dark:shadow-opacity-80 justify-between transform transition-all duration-500 ease-in-out hover:scale-105  hover:shadow-lg dark:hover:shadow-md">
+        {{ if .Params.image }}
+            <a href="{{ $permalink }}" class="no-underline ">
+                {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "mx-auto mb-1 !h-64 rounded object-cover object-top" "Size" "500x") }}
             </a>
             {{ end }}
+        <div class="px-2">
+            
             {{ with .Title }}
-            <a href="{{ $permalink }}" class="no-underline transform transition-all duration-500 ease-in-out hover:scale-105 block">
+            <a href="{{ $permalink }}" class="no-underline ">
                 <h5 class="text-2xl font-semibold text-primary">{{ . | markdownify }}</h5>
             </a>
             {{ end }}
@@ -34,13 +35,13 @@
             {{ end }}
 
             {{ with .Description }}
-            <a href="{{ $permalink }}" class="no-underline transform transition-all duration-500 ease-in-out hover:scale-105 block">
+            <a href="{{ $permalink }}" class="no-underline ">
                 <p class="mt-4 text-lg leading-relaxed text-secondary">{{ . | markdownify }}</p>
             </a>
             {{ end }}
         </div>
         <div class="flex justify-center">
-            <a href="{{ $permalink }}" class="no-underline transform transition-all duration-500 ease-in-out hover:scale-105 block mt-2 px-4 py-2 btn btn-outline-primary rounded transition-colors duration-500 ease-in-out hover:bg-primary hover:text-white">
+            <a href="{{ $permalink }}" class="no-underline  mt-2 px-4 py-2 btn btn-outline-primary rounded transition-colors duration-500 ease-in-out hover:bg-primary hover:text-white">
                 Discover More <i class="fa fa-arrow-right pl-2"></i>
             </a>
         </div>

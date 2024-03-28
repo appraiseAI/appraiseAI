@@ -40,7 +40,7 @@
 
 <!-- News Section -->
 <section class="section-sm pt-14 bg-gradient">
-  <div class="container mx-auto px-4">
+  <div class="container mx-auto ">
     <!-- Section Header -->
     <div class="flex flex-wrap justify-center text-center mb-10">
       <div class="w-full lg:w-8/12 px-4">
@@ -49,14 +49,16 @@
       </div>
     </div>
     <!-- /Section Header -->
-    <div class="flex flex-wrap ">
+    <div class="flex">
       {{ $news := where .Site.RegularPages "Section" "news" | last 3 }}
       {{ range $news }}
-      {{ partial "components/home-card" . }}
+      <div class="w-full md:w-6/12 lg:w-4/12 px-0 sm:px-3 mb-14 xl:mb-8 flex">
+        {{ partial "components/blog-card" . }}
+      </div>
       {{ end }}
     </div>
     <div class="flex flex-wrap justify-center mt-10">
-      <div class="w-full lg:w-8/12 px-4 text-center">
+      <div class="w-full lg:w-8/12 text-center">
         <a href="/news" class="btn btn-primary ">View All News
           <i class="fa fa-arrow-right pl-2 animate-pulse"></i>
         </a>
@@ -111,8 +113,8 @@
 <!-- /Features -->
 
 
-<section class="section-sm pt-14 bg-gradient ">
-  <div class="container mx-auto px-4">
+<section class="section-sm pt-14 bg-gradient">
+  <div class="container mx-auto ">
     <!-- Section Header -->
     <div class="flex flex-wrap justify-center text-center mb-10">
       <div class="w-full lg:w-8/12 px-4">
@@ -121,21 +123,24 @@
       </div>
     </div>
     <!-- /Section Header -->
-    <div class="flex flex-wrap ">
-      {{ $work := where .Site.RegularPages "Section" "ourwork" | first 6 }}
-      {{ range $work }}
-      {{ partial "components/home-card" . }}
+    <div class="flex">
+      {{ $news := where .Site.RegularPages "Section" "ourwork" | last 3 }}
+      {{ range $news }}
+      <div class="w-full md:w-6/12 lg:w-4/12 px-0 sm:px-3 mb-14 xl:mb-8 flex">
+        {{ partial "components/blog-card" . }}
+      </div>
       {{ end }}
     </div>
     <div class="flex flex-wrap justify-center mt-10">
-      <div class="w-full lg:w-8/12 px-4 text-center">
-        <a href="/ourwork" class="btn btn-primary">View All Work
+      <div class="w-full lg:w-8/12 text-center">
+        <a href="/news" class="btn btn-primary ">View All News
           <i class="fa fa-arrow-right pl-2 animate-pulse"></i>
         </a>
       </div>
     </div>
   </div>
 </section>
+
 <!-- /Our Work Section -->
 
 
