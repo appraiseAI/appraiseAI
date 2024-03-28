@@ -5,7 +5,7 @@ banner:
   image: banner.png
   button:
     enable: true
-    label: "Link to our arXiv paper"
+    label: "arXiv paper"
     link: "https://arxiv.org/abs/2309.14876"
 
 # Features

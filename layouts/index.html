@@ -5,18 +5,18 @@
 {{/* {{ $style := printf "background-image: url('%s'); background-size: cover; background-position: center;" */}}
 {{/* $image.RelPermalink }} */}}
 <div  {{ partial `bg-image.html` (dict `Src` "images/banner.png" ) | safeHTMLAttr }}>
-<section class="section pt-14 backdrop-blur-sm ">
+<section class="section pt-14 backdrop-blur-md backdrop-opacity-75 bg-blend-difference   dark:backdropbg-opacity-30 ">
   <div class="container" >
-    <div class="row justify-center ">
-      <div class="lg:col-7 md:col-9 mb-8 text-center font-black drop-shadow-md">
-        <h1 class="mb-4 text-h3 lg:text-h1 ">
+    <div class="row justify ">
+      <div class="lg:col-12 md:col-12 mb-16 text-center font-black ">
+        <h1 class="mb-4 text-h1 lg:text-7xl text-left  drop-shadow ">
           {{ .title | markdownify }}
         </h1>
         {{/*  <div class="my-5" >
           {{ partial "image" (dict "Src" "images/logo.png" "Alt" "feature image" "DisplayXL" "800x"  "Class" "mx-auto lg:!max-w-[320px]")}}
         </div>  */}}
       
-        <h4 class="mb-8 animate-pulse font-black drop-shadow-md capitalize">
+        <h4 class="mb-8 animate-pulse font-black drop-shadow-md capitalize text-right">
           {{ .content | markdownify }}
         </h4>
         {{ with .button }}
