@@ -9,14 +9,18 @@
   <div class="container" >
     <div class="row justify ">
       <div class="lg:col-12 md:col-12 mb-16 text-center font-black ">
-        <h1 class="mb-4 text-h1 lg:text-7xl text-left justify-evenly  drop-shadow-md ">
+        <h1 class="mb-4 text-h1 lg:text-7xl text-right justify-evenly  drop-shadow-md ">
           {{ .title | markdownify }}
         </h1>
+        <div class="col-12 my-10">
+          <div class="bg-logo-light dark:bg-logo-dark bg-contain bg-center bg-no-repeat w-full h-[30vh] animate-pulse drop-shadow-md">
+          </div>
+        </div>
         {{/*  <div class="my-5" >
           {{ partial "image" (dict "Src" "images/logo.pngscreen" "Alt" "feature image" "DisplayXL" "800x"  "Class" "mx-auto lg:!max-w-[320px]")}}
         </div>  */}}
       
-        <h4 class="mb-8 animate-pulse font-black drop-shadow-md capitalize text-right text-h4 lg:text-4xl">
+        <h4 class="mb-8  font-black drop-shadow-md capitalize text-left   text-h4 lg:text-4xl">
           {{ .content | markdownify }}
         </h4>
         {{ with .button }}
@@ -29,6 +33,7 @@
         {{ end }}
         {{ end }}
       </div>
+     
       <div class="col-12">
         {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]"
         "DisplayXL" "800x" ) }}
