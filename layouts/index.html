@@ -4,8 +4,8 @@
 {{/* {{ $image := resources.Get "images/banner.png" }} */}}
 {{/* {{ $style := printf "background-image: url('%s'); background-size: cover; background-position: center;" */}}
 {{/* $image.RelPermalink }} */}}
-<div  {{ partial `bg-image.html` (dict `Src` "images/banner.png" ) | safeHTMLAttr }}>
-  <section class="section pt-14 backdrop-blur-sm h-full bg-body bg-opacity-30 dark:bg-darkmode-body dark:bg-opacity-50">
+<div  {{ partial `bg-image.html` (dict `Src` "images/banner.png" ) | safeHTMLAttr }} class=" h-[calc(70vh)] ">
+  <section class="section pt-14 backdrop-blur-sm h-full bg-body bg-opacity-20 dark:bg-darkmode-body dark:bg-opacity-30">
     <div class="container" >
     <div class="row justify ">
       <div class="lg:col-12 md:col-12 mb-16 text-center font-black ">
