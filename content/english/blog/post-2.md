@@ -7,7 +7,7 @@ image: "/images/newsEU.png"
 categories: ["Technology", "Regulation"]
 author: "Diptish Dey"
 tags: ["AI", "EU AI Act", "Compliance"]
-draft: false
+draft: true
 ---
 [Original article in Dutch](https://www.emerce.nl/research/onderzoek-nederlandse-bedrijven-onvoldoende-voorbereid-op-de-europese-ai-wet)
 
