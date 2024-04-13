@@ -3,7 +3,7 @@ title: "Dutch Companies Insufficiently Prepared for the European AI Act"
 meta_title: "Dutch Companies Unprepared for EU AI Act"
 description: "This article examines the results of a study by the Amsterdam University of Applied Sciences on the readiness of Dutch organizations for the EU AI Act."
 date: 2024-04-13T00:02:10+02:00
-image: "/images/image-placeholder.png"
+image: "/images/newsEU.png"
 categories: ["Technology", "Regulation"]
 author: "Diptish Dey"
 tags: ["AI", "EU AI Act", "Compliance"]
