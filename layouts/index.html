@@ -4,7 +4,7 @@
 {{/* {{ $image := resources.Get "images/banner.png" }} */}}
 {{/* {{ $style := printf "background-image: url('%s'); background-size: cover; background-position: center;" */}}
 {{/* $image.RelPermalink }} */}}
-<div  {{ partial `bg-image.html` (dict `Src` "images/banner.png" ) | safeHTMLAttr }} class=" h-[calc(70vh)] ">
+<div  {{ partial `bg-image.html` (dict `Src` "images/banner.png" ) | safeHTMLAttr }} class="" >
   <section class="section pt-14 backdrop-blur-sm h-full bg-body bg-opacity-20 dark:bg-darkmode-body dark:bg-opacity-30">
     <div class="container" >
     <div class="row justify ">
@@ -16,7 +16,7 @@
           {{ partial "image" (dict "Src" "images/logo.png" "Alt" "feature image" "DisplayXL" "800x"  "Class" "mx-auto lg:!max-w-[320px]")}}
         </div>  */}}
       
-        <h4 class="mb-8 animate-pulse font-black drop-shadow-md capitalize text-right">
+        <h4 class="mb-8 py-10 animate-pulse font-black drop-shadow-md capitalize text-right">
           {{ .content | markdownify }}
         </h4>
         {{ with .button }}
@@ -26,6 +26,7 @@
           {{ .label }}
           <i class="fa fa-arrow-right pl-2"></i>
         </a>
+        
         {{ end }}
         {{ end }}
       </div>
