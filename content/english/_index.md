@@ -1,6 +1,6 @@
 ---
 banner:
-  title: " AI Governance with APPRAISE"
+  title: " AI Governance with "
   content: "Artificial Intelligence Regulation, Ethical AI, Innovation, Compliance, AI Systems"
   image: banner.png
   button:

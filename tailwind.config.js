@@ -46,8 +46,8 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         ...theme.backgroundImage,
-        'logo-light': "url('/images/logo.png')",
-        'logo-dark': "url('/images/logodark.png')",
+        'logo-light': "url('/images/logo.svg')",
+        'logo-dark': "url('/images/logo_dark.svg')"
       }),
       
       colors: {
