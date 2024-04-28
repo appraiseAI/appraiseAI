@@ -4,19 +4,23 @@
 {{/* {{ $image := resources.Get "images/banner.png" }} */}}
 {{/* {{ $style := printf "background-image: url('%s'); background-size: cover; background-position: center;" */}}
 {{/* $image.RelPermalink }} */}}
-<div  {{ partial `bg-image.html` (dict `Src` "images/banner.png" ) | safeHTMLAttr }} class="" >
-  <section class="section pt-14 backdrop-blur-sm h-full bg-body bg-opacity-20 dark:bg-darkmode-body dark:bg-opacity-30">
-    <div class="container" >
+<div  {{ partial `bg-image.html` (dict `Src` "images/banner.png" ) | safeHTMLAttr }} class=" h-[calc(100vh-100px)] ">
+<section class="section pt-14 backdrop-blur-sm h-full bg-body bg-opacity-30 dark:bg-darkmode-body dark:bg-opacity-50">
+  <div class="container" >
     <div class="row justify ">
       <div class="lg:col-12 md:col-12 mb-16 text-center font-black ">
-        <h1 class="mb-4 text-h1 lg:text-7xl text-left  drop-shadow ">
+        <h1 class="mb-4 text-h1 lg:text-7xl text-right justify-evenly  drop-shadow-md ">
           {{ .title | markdownify }}
         </h1>
+        <div class="col-12 my-10">
+          <div class="bg-logo-light dark:bg-logo-dark bg-contain bg-center bg-no-repeat w-full h-[36vh] animate-pulse drop-shadow-md">
+          </div>
+        </div>
         {{/*  <div class="my-5" >
-          {{ partial "image" (dict "Src" "images/logo.png" "Alt" "feature image" "DisplayXL" "800x"  "Class" "mx-auto lg:!max-w-[320px]")}}
+          {{ partial "image" (dict "Src" "images/logo.pngscreen" "Alt" "feature image" "DisplayXL" "800x"  "Class" "mx-auto lg:!max-w-[320px]")}}
         </div>  */}}
       
-        <h4 class="mb-8 py-10 animate-pulse font-black drop-shadow-md capitalize text-right">
+        <h4 class="mb-8  font-black drop-shadow-md capitalize text-left   text-h4 lg:text-4xl">
           {{ .content | markdownify }}
         </h4>
         {{ with .button }}
@@ -26,10 +30,10 @@
           {{ .label }}
           <i class="fa fa-arrow-right pl-2"></i>
         </a>
-        
         {{ end }}
         {{ end }}
       </div>
+     
       <div class="col-12">
         {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]"
         "DisplayXL" "800x" ) }}
@@ -81,9 +85,9 @@
             {{ end }} md:col-5 mb-6">
             <div class="bg-logo-light dark:bg-logo-dark bg-contain bg-center bg-no-repeat w-full h-[36vh]  drop-shadow-md">
             </div>
-        <!-- {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x"
-        "DisplayMD"
-        "360x") }} -->
+        {{/*  {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x"  */}}
+        {{/*  "DisplayMD"
+        "360x") }}  */}}
       </div>
       <div class="{{ if not (modBool $i 2) }}
               md:order-1
@@ -138,7 +142,7 @@
     </div>
     <div class="flex flex-wrap justify-center mt-10">
       <div class="w-full lg:w-8/12 text-center">
-        <a href="/ourwork" class="btn btn-primary ">Summmaries of Our Research
+        <a href="/news" class="btn btn-primary ">View All News
           <i class="fa fa-arrow-right pl-2 animate-pulse"></i>
         </a>
       </div>
