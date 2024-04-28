@@ -79,9 +79,11 @@
       <div class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-5 mb-6">
-        {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x"
+            <div class="bg-logo-light dark:bg-logo-dark bg-contain bg-center bg-no-repeat w-full h-[36vh]  drop-shadow-md">
+            </div>
+        <!-- {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x"
         "DisplayMD"
-        "360x") }}
+        "360x") }} -->
       </div>
       <div class="{{ if not (modBool $i 2) }}
               md:order-1
