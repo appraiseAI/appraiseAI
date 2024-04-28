@@ -47,7 +47,7 @@ module.exports = {
       backgroundImage: theme => ({
         ...theme.backgroundImage,
         'logo-light': "url('/images/logo.png')",
-        'logo-dark': "url('/images/logo_dark.svg')"
+        'logo-dark': "url('/images/logo_dark.png')"
       }),
       
       colors: {
