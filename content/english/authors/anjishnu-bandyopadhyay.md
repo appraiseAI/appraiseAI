@@ -7,7 +7,6 @@ social:
   - name: linkedin
     icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/anjishnu-bandyopadhyay/
-
 #   - name: twitter
 #     icon: fa-brands fa-twitter
 #     link: https://twitter.com/arijitlaik
@@ -26,4 +25,4 @@ social:
 # draft: true
 ---
 
- Anjishnu Bandyopadhyay is a data scientist and researcher working on Anti Money Laundering risk- modeling, -rating, and regulatory compliance of financial institutions.
+Anjishnu Bandyopadhyay is a data scientist and researcher working on Anti Money Laundering risk- modeling, -rating, and regulatory compliance of financial institutions.

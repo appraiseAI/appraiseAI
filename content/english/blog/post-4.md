@@ -10,8 +10,6 @@ tags: ["silicon", "technology"]
 draft: true
 ---
 
-
-
 In a historic move, the European Parliament has approved the Artificial Intelligence (AI) Act, establishing a comprehensive regulatory framework to ensure the safe and ethical development of AI technology while boosting innovation across the European Union.
 
 The regulation, agreed upon in negotiations with member states in December 2023, was endorsed by MEPs with a strong majority of 523 votes in favor, 46 against, and 49 abstentions.

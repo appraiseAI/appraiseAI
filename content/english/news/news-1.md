@@ -3,15 +3,22 @@ title: "EU Parliament Approves Landmark Artificial Intelligence Act"
 date: 2024-03-15
 description: "EU Parliament approves landmark Artificial Intelligence Act, setting regulatory framework for AI development in Europe."
 image: "/images/newsEU.png"
-tags: ["European Union", "Artificial Intelligence Regulation", "Ethical AI", "Innovation", "Technology Governance"]
+tags:
+  [
+    "European Union",
+    "Artificial Intelligence Regulation",
+    "Ethical AI",
+    "Innovation",
+    "Technology Governance",
+  ]
 draft: false
 ---
+
 In a historic move, the European Parliament has approved the [Artificial Intelligence (AI) Act](https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-landmark-law), establishing a comprehensive regulatory framework to ensure the safe and ethical development of AI technology while boosting innovation across the European Union.
 
 The regulation, agreed upon in negotiations with member states in December 2023, was endorsed by MEPs with a strong majority of 523 votes in favor, 46 against, and 49 abstentions.
 
 "We finally have the world's first binding law on artificial intelligence, to reduce risks, create opportunities, combat discrimination, and bring transparency," said Brando Benifei, the Internal Market Committee co-rapporteur from the S&D group in Italy. "Thanks to Parliament, unacceptable AI practices will be banned in Europe and the rights of workers and citizens will be protected."
-
 
 The Artificial Intelligence Act aims to protect fundamental rights, democracy, the rule of law, and environmental sustainability from the potential harms posed by high-risk AI systems, while also establishing Europe as a global leader in responsible AI innovation.
 

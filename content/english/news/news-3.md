@@ -27,4 +27,4 @@ Besides AI, Dey predicts that the growing demand for computing power will drive 
 
 With his research and the APPRAISE model, Diptish Dey provides valuable insights and practical strategies for companies to comply with the requirements of the EU AI Act and effectively address the challenges and opportunities in AI governance and innovation.
 
-*Original Dutch article available [here](https://dailydatabytes.nl/actueel/mie24-diptish-dey-helpt-bedrijven-bij-het-naleven-van-de-eu-ai-act/).*
+_Original Dutch article available [here](https://dailydatabytes.nl/actueel/mie24-diptish-dey-helpt-bedrijven-bij-het-naleven-van-de-eu-ai-act/)._

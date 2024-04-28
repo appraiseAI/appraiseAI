@@ -44,12 +44,12 @@ module.exports = {
       padding: "2rem",
     },
     extend: {
-      backgroundImage: theme => ({
+      backgroundImage: (theme) => ({
         ...theme.backgroundImage,
-        'logo-light': "url('/images/logo.png')",
-        'logo-dark': "url('/images/logo_dark.png')"
+        "logo-light": "url('/images/logo.png')",
+        "logo-dark": "url('/images/logo_dark.png')",
       }),
-      
+
       colors: {
         text: theme.colors.default.text_color.default,
         light: theme.colors.default.text_color.light,
@@ -92,8 +92,8 @@ module.exports = {
   },
   variants: {
     extend: {
-      backgroundImage: ['dark']
-    }
+      backgroundImage: ["dark"],
+    },
   },
   plugins: [
     require("@tailwindcss/typography"),

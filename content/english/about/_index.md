@@ -6,7 +6,6 @@ image: "/images/logo.png"
 draft: false
 ---
 
-
 ### About Us
 
 Welcome to our platform, where we focus on providing innovative solutions for navigating the complexities of AI governance.
@@ -30,7 +29,3 @@ Delve into our research on technical assessment frameworks for binary classifier
 
 {{< button label="Read More in the arXiv paper" link="https://arxiv.org/abs/2211.09500" style="" >}}
 [Proceedings of the 15th ICAART](https://www.scitepress.org/Link.aspx?doi=10.5220/0011744600003393)
-
-
-
-

@@ -1,6 +1,7 @@
 {{ define "main" }}
   {{ partial "page-header" . }}
 
+
   <section class="section">
     <div class="container">
       <div class="row gx-5">
@@ -20,9 +21,11 @@
         <div class="lg:col-4">
           {{ partialCached "widgets/tags" . }}
 
+
           <!-- widget -->
-          {{/*  {{ $widget:= site.Params.widgets.sidebar }}  */}}
-          {{/*  {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}  */}}
+          {{/* {{ $widget:= site.Params.widgets.sidebar }} */}}
+          {{/* {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
+          */}}
         </div>
       </div>
     </div>

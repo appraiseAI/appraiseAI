@@ -21,5 +21,4 @@ features:
       enable: True
       label: "Link to our arXiv paper"
       link: "https://arxiv.org/abs/2309.14876"
-
 ---

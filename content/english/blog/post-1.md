@@ -6,7 +6,8 @@ date: 2022-04-04T05:00:00Z
 image: "/images/imageblog.png"
 categories: ["AI", "Governance", "Compliance"]
 author: "Diptish Dey"
-tags: ["AI Regulation", "GDPR", "AI Governance", "Audit", "Compliance Challenges"]
+tags:
+  ["AI Regulation", "GDPR", "AI Governance", "Audit", "Compliance Challenges"]
 draft: false
 ---
 

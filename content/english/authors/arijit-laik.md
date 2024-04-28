@@ -25,5 +25,3 @@ social:
     link: https://neon1174.wordpress.com
 draft: true
 ---
-
-
