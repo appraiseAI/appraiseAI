@@ -123,14 +123,14 @@
 <section class="section-sm pt-14 bg-gradient">
   <div class="container mx-auto ">
     <!-- Section Header -->
-    <div class="flex flex-wrap justify-center text-center mb-10">
-      <div class="w-full lg:w-8/12 px-4">
+    <div class="flex flex-wrap justify-center text-center mb-12">
+      <div class="w-full lg:w-6/12 px-4">
         <h2 class="text-4xl font-semibold text-primary">Our Work</h2>
         <p class="text-lg leading-relaxed m-4 text-secondary">Check out our latest research summaries</p>
       </div>
     </div>
     <!-- /Section Header -->
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap -m-4">
       {{ $news := where .Site.RegularPages "Section" "ourwork" | last 3 }}
       {{ range $news }}
       <div class="w-full md:w-6/12 lg:w-4/12 px-0 sm:px-3 mb-14 xl:mb-8 flex">
@@ -138,11 +138,13 @@
       </div>
       {{ end }}
     </div>
-    <div class="flex flex-wrap justify-center mt-10">
+    
+    <div class="flex flex-wrap justify-center mt-12">
       <div class="w-full lg:w-8/12 text-center">
-        <a href="/news" class="btn rounded-full btn-primary ">View All News
-          <i class="fa fa-arrow-right pl-2 animate-pulse"></i>
-        </a>
+        <a href="/ourwork" class=" inline-flex items-center justify-center  btn rounded-full btn-primary ">research summaries
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 animate-bounce" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3-8a3 3 0 11-6 0 3 3 0 016 0z" clip-rule="evenodd" />
+          </svg>        </a>
       </div>
     </div>
   </div>
