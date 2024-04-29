@@ -41,13 +41,13 @@ module.exports = {
     },
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
     },
     extend: {
       backgroundImage: (theme) => ({
         ...theme.backgroundImage,
         "logo-light": "url('/images/logo.png')",
-        "logo-dark": "url('/images/logo.png')",
+        "logo-dark": "url('/images/logo_dark.png')",
       }),
 
       colors: {
