@@ -11,7 +11,7 @@ banner:
 # Features
 features:
   - title: "Key Insights into AI Governance"
-    image: "/images/logo.png"
+    # image: "/images/logo.png"
     content: "Delve into the our paper on AI governance through our research in the Netherlands. Discover how the proposed APPRAISE framework addresses challenges and provides valuable insights for organizations. "
     bulletpoints:
       - "Learnings from GDPR and their impact on AI governance"

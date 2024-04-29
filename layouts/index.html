@@ -16,11 +16,7 @@
           <div class="bg-logo-light dark:bg-logo-dark bg-contain bg-center bg-no-repeat w-full h-[36vh] animate-pulse drop-shadow-md">
           </div>
         </div>
-        {{/*  <div class="my-5" >
-          {{ partial "image" (dict "Src" "images/logo.png" "Alt" "feature image" "DisplayXL" "800x"  "Class" "mx-auto lg:!max-w-[320px]")}}
-          {{ partial "image" (dict "Src" "images/logo_dark.png" "Alt" "feature image" "DisplayXL" "800x"  "Class" "mx-auto lg:!max-w-[320px]")}}
-
-        </div>  */}}
+       
       
         <h4 class="mb-8  font-black drop-shadow-md capitalize text-left   text-h4 lg:text-4xl">
           {{ .content | markdownify }}
@@ -87,9 +83,9 @@
             {{ end }} md:col-5 mb-6">
             <div class="bg-logo-light dark:bg-logo-dark bg-contain bg-center bg-no-repeat w-full h-[36vh]  drop-shadow-md">
             </div>
-        <!-- {{/*  {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x"  */}}
-        {{/*  "DisplayMD"
-        "360x") }}  */}} -->
+        {{ if .image }}
+          {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+        {{ end }}
       </div>
       <div class="{{ if not (modBool $i 2) }}
               md:order-1
@@ -206,6 +202,10 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="" >
+    {{ partial "image" (dict "Src" "images/logo.png" "Alt" "feature image" "DisplayXL" "800x"  "Class" "mx-auto lg:!max-w-[320px]")}}
+    {{ partial "image" (dict "Src" "images/logo_dark.png" "Alt" "feature image" "DisplayXL" "800x"  "Class" "mx-auto lg:!max-w-[320px]")}}
   </div>
 </section>
 {{ end }}
