@@ -23,7 +23,7 @@
         </h4>
         {{ with .button }}
         {{ if .enable }}
-        <a class="btn btn-primary" href="{{ .link | absURL }}" {{ if strings.HasPrefix .link `http` }} target="_blank"
+        <a class="btn rounded-full btn-primary" href="{{ .link | absURL }}" {{ if strings.HasPrefix .link `http` }} target="_blank"
           rel="noopener" {{ end }}>
           {{ .label }}
           <i class="fa fa-arrow-right pl-2"></i>
@@ -64,7 +64,7 @@
     </div>
     <div class="flex flex-wrap justify-center mt-10">
       <div class="w-full lg:w-8/12 text-center">
-        <a href="/news" class="btn btn-primary ">View All News
+        <a href="/news" class="btn rounded-full btn-primary ">View All News
           <i class="fa fa-arrow-right pl-2 animate-pulse"></i>
         </a>
       </div>
@@ -106,7 +106,7 @@
         </ul>
         {{ with .button }}
         {{ if .enable }}
-        <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+        <a class="btn rounded-full btn-primary mt-6" href="{{ .link | absURL }}">
           {{ .label }}
           <i class="fa fa-arrow-right pl-2 animate-pulse"></i>
         </a>
@@ -140,7 +140,7 @@
     </div>
     <div class="flex flex-wrap justify-center mt-10">
       <div class="w-full lg:w-8/12 text-center">
-        <a href="/news" class="btn btn-primary ">View All News
+        <a href="/news" class="btn rounded-full btn-primary ">View All News
           <i class="fa fa-arrow-right pl-2 animate-pulse"></i>
         </a>
       </div>
