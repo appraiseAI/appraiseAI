@@ -3,7 +3,7 @@ title: "APPRAISE - AI Governance Framework"
 meta_title: ""
 description: "Explore APPRAISE, an innovative AI governance framework by Diptish Dey. Learn how APPRAISE addresses the challenges in implementing effective AI governance, emphasizing auditability and explainability of AI systems for transparency and accountability."
 image: "/images/logo_dark.png"
-draft: true
+draft: false
 ---
 
 ### About Us
