@@ -8,7 +8,7 @@
         <!-- news posts -->
         <div class="lg:col-8">
           <div class="row">
-            {{ $paginator:= .Paginate .RegularPages }}
+            {{ $paginator:= .Paginate (sort .RegularPages ".Date" "desc")  }}
             {{ range $paginator.Pages }}
               <div class="md:col-6 mb-4 flex">
                 {{ partial "components/blog-card" . }}
