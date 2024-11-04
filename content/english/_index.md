@@ -19,6 +19,6 @@ features:
       - "The role of audit in ensuring AIA compliance"
     button:
       enable: True
-      label: "Link to our arXiv paper"
-      link: "https://arxiv.org/abs/2309.14876"
+      label: "Link to our full paper"
+      link: "https://ojs.aaai.org/index.php/AIES/article/view/31640/33807"
 ---
