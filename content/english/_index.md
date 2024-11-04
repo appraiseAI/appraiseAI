@@ -5,8 +5,8 @@ banner:
   image: banner.png
   button:
     enable: true
-    label: "arXiv paper"
-    link: "https://arxiv.org/abs/2309.14876"
+    label: "Link to Paper"
+    link: "https://ojs.aaai.org/index.php/AIES/article/view/31640/33807"
 
 # Features
 features:
